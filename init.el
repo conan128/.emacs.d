@@ -104,18 +104,18 @@ Replaces default behaviour of comment-dwim, when it inserts comment at the end o
      (color-theme-initialize)
      (color-theme-blackboard)))
 ;使用Emacs-w3m浏览网页                                                                                                        
-(add-to-list 'load-path "~/.emacs.d/elpa/w3m")
- (require 'w3m-load)
-(setq w3m-home-page "http://www.baidu.com")
+;(add-to-list 'load-path "~/.emacs.d/elpa/w3m")
+; (require 'w3m-load);
+;(setq w3m-home-page "http://www.baidu.com")
 ;load & init 
-(autoload 'w3m "w3m" "interface for w3m on emacs" t)
-(autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
-(autoload 'w3m-search "w3m-search" "Search words using emacs-w3m." t)
+;(autoload 'w3m "w3m" "interface for w3m on emacs" t)
+;(autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
+;(autoload 'w3m-search "w3m-search" "Search words using emacs-w3m." t)
 ;;settings
-(setq w3m-use-cookies t)
-(require 'mime-w3m) 
-(setq w3m-default-display-inline-image t) 
-(setq w3m-default-toggle-inline-images t)
+;(setq w3m-use-cookies t)
+;(require 'mime-w3m) 
+;(setq w3m-default-display-inline-image t) 
+;(setq w3m-default-toggle-inline-images t)
 
     ;;C-f6,C-S-f6
     (require 'swbuff)

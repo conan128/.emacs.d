@@ -26,3 +26,6 @@ exit
 (let ((softs '(auctex auto-complete cdlatex-mode slime yasnippet)))  (dolist (obj softs)    (el-get-install obj)))
 (+ 2 3)
 exit
+ls
+ls
+ls
